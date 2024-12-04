@@ -1,0 +1,19 @@
+2024-12-01T18:06:26.479+01:00  INFO 1852 --- [gateway] [main] org.example.gateway.GatewayApplication   : Starting GatewayApplication using Java 21.0.2 with PID 1852 (C:\Users\krysi\IdeaProjects\ISAJPA\gateway\target\classes started by krysi in C:\Users\krysi\IdeaProjects\ISAJPA\gateway)
+2024-12-01T18:06:26.489+01:00  INFO 1852 --- [gateway] [main] org.example.gateway.GatewayApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-01T18:06:27.413+01:00  INFO 1852 --- [gateway] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ce78fc98-7eee-3695-b683-8025b8f984a0
+2024-12-01T18:06:28.737+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-12-01T18:06:28.738+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-01T18:06:28.739+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-12-01T18:06:28.739+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-12-01T18:06:28.739+01:00  INFO 1852 --- [gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-01T18:06:29.474+01:00  INFO 1852 --- [gateway] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-12-01T18:06:29.537+01:00  INFO 1852 --- [gateway] [main] org.example.gateway.GatewayApplication   : Started GatewayApplication in 3.472 seconds (process running for 7.359)
