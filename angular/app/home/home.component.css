@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left .right{
+  font: 1;
+  margin: 0 10px;
+}

@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Materials</h2>
+  <button (click)="toggleForm()">Add Material</button>
+  <div *ngIf="isAddFormVisible">
+    <form (ngSubmit)="onSubmit()">
+      <label for="type">Type:</label>
+      <input id="type" name="type" [(ngModel)]="newMaterial.type" required>
+      <label for="meltingTemp">Melting Temp:</label>
+      <input id="meltingTemp" name="meltingTemp" [(ngModel)]="newMaterial.meltingTemp"required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  @if (materials().length === 0){
+    <p>No materials found</p>
+  }
+  <ul class="materials">
+  @for (material of materials(); track $index){
+    <li class="materials__item">
+      <h2>Type: {{material.type}}</h2>
+      <h4>Temp: {{material.meltingTemp}}</h4>
+      <button>Edit</button >
+      <button (click)="removeMaterial(material.id)">Delete</button>
+    </li>
+  }
+  </ul>
+</div>

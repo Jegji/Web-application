@@ -1,0 +1,19 @@
+header{
+  display: flex;
+  padding-inline: 16px;
+  padding-block: 0px;
+  background-color: #333;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  margin-bottom: 4px;
+}
+
+h3{
+  margin-top: 0px;
+}

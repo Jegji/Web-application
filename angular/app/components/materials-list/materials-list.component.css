@@ -1,0 +1,17 @@
+.container{
+  width: 500px;
+  height: 740px;
+  background: #c0c0c0;
+  border-radius: 15px;
+}
+
+.materials {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.materials__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
