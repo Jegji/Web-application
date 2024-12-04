@@ -1,0 +1,23 @@
+### 1. Wszystkie materialy
+GET http://localhost:8081/api/materials/95cc6abb-566a-4a6e-88df-55d3bcababa7
+
+### 2. Dodawanie materialow
+POST http://localhost:8081/api/materials
+Content-Type: application/json
+
+{
+    "type": "Mat1",
+    "meltingTemp": "250"
+}
+
+### 3. Aktualizuj material
+PUT http://localhost:8081/api/materials/ee3d26d6-9885-4d44-98fc-0ce2850ffa31
+Content-Type: application/json
+
+{
+  "type": "Mat2",
+  "meltingTemp": "260"
+}
+
+### 10. Usun material
+DELETE http://localhost:8081/api/materials/17ed9aae-fd29-4e3f-90bb-5b8f19e10abe
